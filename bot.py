@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @Avi
 
 import os
 import asyncio
@@ -47,8 +47,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("About", callback_data="aboutbot"),
+                        InlineKeyboardButton("Info", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -293,7 +293,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("About Me", callback_data="aboutbot"),
+                        InlineKeyboardButton("About", callback_data="aboutbot"),
                         InlineKeyboardButton("Home", callback_data="gotohome")
                     ]
                 ]
@@ -310,7 +310,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                     
                     [
                         InlineKeyboardButton("About", callback_data="aboutbot"),
-                        InlineKeyboardButton("Dev Info", callback_data="aboutdevs")
+                        InlineKeyboardButton("Info", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -360,7 +360,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("About", callback_data="aboutbot"),
-                        InlineKeyboardButton("Dev Info", callback_data="aboutdevs")
+                        InlineKeyboardButton("Info", callback_data="aboutdevs")
                     ]
                 ]
             )
