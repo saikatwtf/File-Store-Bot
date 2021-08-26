@@ -47,10 +47,6 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
-                    ],
-                    [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("About Dev", callback_data="aboutdevs")
                     ]
@@ -88,7 +84,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/DevsZone)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [My Boss](https://t.me/AvishkarPatil)",
                                      disable_web_page_preview=True)
             return
 
@@ -115,7 +111,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = str(forwarded_msg.message_id)
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=AbirHasan2005_{str_to_b64(file_er_id)}"
+            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=AvishkarPatil_{str_to_b64(file_er_id)}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.message_id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Link", url=share_link)]]))
@@ -280,13 +276,10 @@ async def button(bot: Client, cmd: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
+               
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
-                    ],
-                    [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("Home", callback_data="gotohome"),
+                        InlineKeyboardButton("About", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -300,12 +293,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("About Me", callback_data="aboutbot"),
+                        InlineKeyboardButton("Home", callback_data="gotohome")
                     ]
                 ]
             )
@@ -318,13 +307,10 @@ async def button(bot: Client, cmd: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
+                    
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("About", callback_data="aboutbot"),
+                        InlineKeyboardButton("Dev Info", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -336,7 +322,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/DevsZone).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Boss](https://t.me/AvishkarPatil).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -361,7 +347,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/DevsZone).",
+                    text="Something went Wrong. Contact my [Boss](https://t.me/AvishkarPatil).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -373,12 +359,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("About", callback_data="aboutbot"),
+                        InlineKeyboardButton("Dev Info", callback_data="aboutdevs")
                     ]
                 ]
             )
