@@ -279,7 +279,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                
                     [
                         InlineKeyboardButton("Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About", callback_data="aboutdevs")
+                        InlineKeyboardButton("Info", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -335,10 +335,10 @@ async def button(bot: Client, cmd: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("🔅 Jᴏɪɴ Cʜᴀɴɴᴇʟ Nᴏᴡ 🔅", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
+                                InlineKeyboardButton("Rᴇғʀᴇsʜ 😪", callback_data="refreshmeh")
                             ]
                         ]
                     ),
