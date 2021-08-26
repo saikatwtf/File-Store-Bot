@@ -35,5 +35,5 @@ async def MediaForward(bot: Client, user_id: int, file_id: int):
 
 async def SendMediaAndReply(bot: Client, user_id: int, file_id: int):
     sent_message = await MediaForward(bot, user_id, file_id)
-    await ReplyForward(message=sent_message, file_id=file_id)
+    #await ReplyForward(message=sent_message, file_id=file_id)
     await asyncio.sleep(2)
