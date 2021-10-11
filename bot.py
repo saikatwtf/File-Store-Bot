@@ -347,7 +347,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Boss](https://t.me/AvishkarPatil).",
+                    text="Something went Wrong. Contact my [Boss](https://t.me/Bot_Flix).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
