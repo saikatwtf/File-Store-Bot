@@ -22,23 +22,23 @@ class Config(object):
 This is Permanent Files Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+🤖 **Mʏ Nᴀᴍᴇ:** [Files Store Bot](https://t.me/{BOT_USERNAME})
 
-🧑🏻‍💻 **Creater:** @Bot_Flix
+🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Bot_Flix**
 
-👥 **RequestHubFlix:** [RequestFlix](https://t.me/RequestHubFlix)
+👥 **Gʀᴏᴜᴘ: @RequestHubFlix**
 
-📢 **Movies Here:** [MoviesHubFlix](https://t.me/MoviesHubFlix)
+📢 **Mᴏᴠɪᴇs: @MoviesHubFlix**
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Creater:** @Bot_Flix
+🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Bot_Flix**
 
-Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
+**Iғ ʜᴀᴠᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʀᴇɢᴀʀᴅɪɴɢ ᴜsɪɴɢ ᴍᴇ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ Mʏ Bᴏss - @Bot_Flix**
 
-Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things
+**Aʟsᴏ ʀᴇᴍᴇᴍʙᴇʀ ᴛʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴡɪʟʟ Dᴇʟᴇᴛᴇ Aᴅᴜʟᴛ Cᴏɴᴛᴇɴᴛs ғʀᴏᴍ Dᴀᴛᴀʙᴀsᴇ. Sᴏ ʙᴇᴛᴛᴇʀ ᴅᴏɴ'ᴛ Sᴛᴏʀᴇ Tʜᴏsᴇ Kɪɴᴅ ᴏғ Tʜɪɴɢs**
 """
 	HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\n**Tʜɪs Is Fɪʟᴇs Sᴛᴏʀᴇ**
+Hi, [{}](tg://user?id={})\n\n**I'ᴍ ғɪʟᴇs Sᴛᴏʀᴇ ʙᴏᴛ 🏪**
 
-**Sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ I ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ ᴀ ᴘᴇʀᴍᴀɴᴇɴᴛ Sʜᴀʀᴀʙʟᴇ Lɪɴᴋ. I Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ Aʟsᴏ! Cʜᴇᴄᴋ Aʙᴏᴜᴛ Sᴇᴄᴛɪᴏɴ** . 😁.
+**Hᴇʀᴇ ʏᴏᴜ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇs ᴛʜᴇɴ I ᴡɪʟʟ ɢɪᴠᴇ ᴛʜᴇ ᴘᴇʀᴍᴀɴᴇɴᴛ Sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ** . 😁.
 """
