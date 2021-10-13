@@ -24,14 +24,14 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
 
-🧑🏻‍💻 **Developer:** @AvishkarPatil
+🧑🏻‍💻 **Creater:** @Bot_Flix
 
-👥 **Follow GitHub:** [AviPatilPro](https://GitHub.com/avipatilpro)
+👥 **RequestHubFlix:** [RequestFlix](https://t.me/RequestHubFlix)
 
 📢 **Movies Here:** [MoviesHubFlix](https://t.me/MoviesHubFlix)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @AvishkarPatil
+🧑🏻‍💻 **Creater:** @Bot_Flix
 
 Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
 
