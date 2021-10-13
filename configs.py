@@ -38,7 +38,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 **Aʟsᴏ ʀᴇᴍᴇᴍʙᴇʀ ᴛʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴡɪʟʟ Dᴇʟᴇᴛᴇ Aᴅᴜʟᴛ Cᴏɴᴛᴇɴᴛs ғʀᴏᴍ Dᴀᴛᴀʙᴀsᴇ. Sᴏ ʙᴇᴛᴛᴇʀ ᴅᴏɴ'ᴛ Sᴛᴏʀᴇ Tʜᴏsᴇ Kɪɴᴅ ᴏғ Tʜɪɴɢs**
 """
 	HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\n**I'ᴍ ғɪʟᴇs Sᴛᴏʀᴇ ʙᴏᴛ 🏪**
+**Hi**, [{}](tg://user?id={})\n\n**I'ᴍ ғɪʟᴇs Sᴛᴏʀᴇ ʙᴏᴛ 🏪**
 
 **Hᴇʀᴇ ʏᴏᴜ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇs ᴛʜᴇɴ I ᴡɪʟʟ ɢɪᴠᴇ ᴛʜᴇ ᴘᴇʀᴍᴀɴᴇɴᴛ Sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ** . 😁.
 """
