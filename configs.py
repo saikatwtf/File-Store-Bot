@@ -22,7 +22,7 @@ class Config(object):
 This is Permanent Files Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **Mʏ Nᴀᴍᴇ:** [Files Store Bot](https://t.me/{BOT_USERNAME})
+🤖 **Mʏ Nᴀᴍᴇ: 𐌴𐌼𐌹𐍰𐌹𐌳**
 
 🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Bot_Flix**
 
@@ -31,7 +31,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 📢 **Mᴏᴠɪᴇs: @MoviesHubFlix**
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Bot_Flix**
+🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Bot_Flix** 😏
 
 **Iғ ʜᴀᴠᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʀᴇɢᴀʀᴅɪɴɢ ᴜsɪɴɢ ᴍᴇ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ Mʏ Bᴏss - @Bot_Flix**
 
