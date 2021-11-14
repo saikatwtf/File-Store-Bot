@@ -22,23 +22,23 @@ class Config(object):
 This is Permanent Files Store Bot!
 Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
 
-🤖 **Mʏ Nᴀᴍᴇ: 𐌴𐌼𐌹𐍰𐌹𐌳**
+🌟 **Mʏ Nᴀᴍᴇ: [ɢᴡᴇɴ sᴛᴀᴄʏ](https://t.me/TheGwenStacyBot)**
 
-🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Bot_Flix**
+🌟 **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @AnnihilusOP ⚡**
 
-👥 **Gʀᴏᴜᴘ: @RequestHubFlix**
+🌟 **Gʀᴏᴜᴘ: @MoviZenXFlix**
 
-📢 **Mᴏᴠɪᴇs: @MoviesHubFlix**
+🌟 **ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ: @MoviZenX**
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Bot_Flix** 😏
+🌟 **ᴅᴇᴠᴇʟᴏᴘᴇʀ: @AnnihilusOP** 😏
 
-**Iғ ʜᴀᴠᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʀᴇɢᴀʀᴅɪɴɢ ᴜsɪɴɢ ᴍᴇ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ Mʏ Bᴏss - @Bot_Flix**
+**Iғ ʜᴀᴠᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʀᴇɢᴀʀᴅɪɴɢ ᴜsɪɴɢ ᴍᴇ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ Mʏ Bᴏss - @AnnihilusOP_bot**
 
 **Aʟsᴏ ʀᴇᴍᴇᴍʙᴇʀ ᴛʜᴀᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴡɪʟʟ Dᴇʟᴇᴛᴇ Aᴅᴜʟᴛ Cᴏɴᴛᴇɴᴛs ғʀᴏᴍ Dᴀᴛᴀʙᴀsᴇ. Sᴏ ʙᴇᴛᴛᴇʀ ᴅᴏɴ'ᴛ Sᴛᴏʀᴇ Tʜᴏsᴇ Kɪɴᴅ ᴏғ Tʜɪɴɢs**
 """
 	HOME_TEXT = """
-**Hi**, [{}](tg://user?id={})\n\n**I'ᴍ ғɪʟᴇs Sᴛᴏʀᴇ ʙᴏᴛ 🏪**
+**Hey**, [{}](tg://user?id={})\n\n**I'ᴍ [ɢᴡᴇɴ sᴛᴀᴄʏ](https://t.me/TheGwenStacyBot) ʙᴏᴛ 😎**
 
-**Hᴇʀᴇ ʏᴏᴜ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇs ᴛʜᴇɴ I ᴡɪʟʟ ɢɪᴠᴇ ᴛʜᴇ ᴘᴇʀᴍᴀɴᴇɴᴛ Sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ** . 😁.
+**ᴛᴜᴍ ᴍᴜᴊʜᴇ 𝗙𝗶𝗹𝗲𝘀 ᴅᴏ ᴍᴀɪɴ ᴛᴜᴍʜᴇɴ 𝗣𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 𝗦𝗵𝗮𝗿𝗲𝗮𝗯𝗹𝗲 𝗟𝗶𝗻𝗸 ᴅᴜɴɢᴀ**😁.
 """
