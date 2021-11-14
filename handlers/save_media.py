@@ -17,7 +17,7 @@ async def ForwardToChannel(bot: Client, message: Message, editable: Message):
             await asyncio.sleep(sl.x)
             await bot.send_message(
                 chat_id=int(Config.LOG_CHANNEL),
-                text=f"#FloodWait:\nGot FloodWait of `{str(sl.x)}s` from `{str(editable.chat.id)}` !!",
+                text=f"#FloodWait_01:\nGot FloodWait of `{str(sl.x)}s` from `{str(editable.chat.id)}` !!",
                 parse_mode="Markdown",
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
@@ -46,7 +46,7 @@ async def SaveBatchMediaInChannel(bot: Client, editable: Message, message_ids: l
                 InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
             ]])
         )
-        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=MoviesHubFlix_{str_to_b64(str(SaveMessage.message_id))}"
+        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=_MoviZenX_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
             f"**Batch Files Stored in my Database!**\n\nHere is the Permanent Link of your files: {share_link} \n\n"
             f"Just Click the link to get your files!",
@@ -84,7 +84,7 @@ async def SaveMediaInChannel(bot: Client, editable: Message, message: Message):
         await forwarded_msg.reply_text(
             f"#PRIVATE_FILE:\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) Got File Link!",
             parse_mode="Markdown", disable_web_page_preview=True)
-        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=MoviesHubFlix_{str_to_b64(file_er_id)}"
+        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=_MoviZenX_{str_to_b64(file_er_id)}"
         await editable.edit(
             f"**Your File Stored in my Database!**\n\nHere is the Permanent Link of your file: {share_link} \n\n"
             f"Just Click the link to get your file!",
