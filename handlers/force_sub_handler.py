@@ -13,7 +13,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=cmd.from_user.id,
-                text="Sᴏʀʀʏ Sɪʀ Yᴏᴜ Aʀᴇ Bᴀɴɴᴇᴅ Fʀᴏᴍ Usᴇɪɴɢ Mᴇ Pʟᴇᴀsᴇ Cᴏɴᴛᴀᴄᴛ [Avishkar](https://t.me/AvishkarPatil).",
+                text="Sᴏʀʀʏ Sɪʀ Yᴏᴜ Aʀᴇ Bᴀɴɴᴇᴅ Fʀᴏᴍ Usᴇɪɴɢ Mᴇ Pʟᴇᴀsᴇ Cᴏɴᴛᴀᴄᴛ [ᴀɴɴɪʜɪʟᴜsᴏᴘ](https://t.me/AnnihilusOP_bot).",
                 parse_mode="markdown",
                 disable_web_page_preview=True
             )
@@ -34,10 +34,10 @@ async def handle_force_sub(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔅Jᴏɪɴ Cʜᴀɴɴᴇʟ Nᴏᴡ🔅", url=invite_link.invite_link)
+                        InlineKeyboardButton("🎯Jᴏɪɴ Cʜᴀɴɴᴇʟ Nᴏᴡ🎯", url=invite_link.invite_link)
                     ],
                     [
-                        InlineKeyboardButton("Rᴇғʀᴇsʜ 😪", callback_data="refreshForceSub")
+                        InlineKeyboardButton("Rᴇғʀᴇsʜ ♻️", callback_data="refreshForceSub")
                     ]
                 ]
             ),
@@ -47,7 +47,7 @@ async def handle_force_sub(bot: Client, cmd: Message):
     except Exception:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="Sᴏᴍᴇᴛʜɪɴɢ Wᴇɴᴛ Wʀᴏɴɢ Cᴏɴᴛᴀᴄᴛ [Avi](https://t.me/AvishkarPatil).",
+            text="Sᴏᴍᴇᴛʜɪɴɢ Wᴇɴᴛ Wʀᴏɴɢ Cᴏɴᴛᴀᴄᴛ [AnnihilusOP](https://t.me/AnnihilusOP_bot).",
             parse_mode="markdown",
             disable_web_page_preview=True
         )
