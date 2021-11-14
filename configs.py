@@ -40,5 +40,5 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 	HOME_TEXT = """
 **Hey**, [{}](tg://user?id={})\n\n**I'ᴍ [ɢᴡᴇɴ sᴛᴀᴄʏ](https://t.me/TheGwenStacyBot) ʙᴏᴛ 😎**
 
-**ᴛᴜᴍ ᴍᴜᴊʜᴇ 𝗙𝗶𝗹𝗲𝘀 ᴅᴏ ᴍᴀɪɴ ᴛᴜᴍʜᴇɴ 𝗣𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 𝗦𝗵𝗮𝗿𝗲𝗮𝗯𝗹𝗲 𝗟𝗶𝗻𝗸 ᴅᴜɴɢᴀ**😁.
+ᴛᴜᴍ ᴍᴜᴊʜᴇ 𝗙𝗶𝗹𝗲𝘀 ᴅᴏ ᴍᴀɪɴ ᴛᴜᴍʜᴇɴ 𝗣𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁 𝗦𝗵𝗮𝗿𝗲𝗮𝗯𝗹𝗲 𝗟𝗶𝗻𝗸 ᴅᴜɴɢᴀ 😁.
 """
